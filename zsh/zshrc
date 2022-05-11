@@ -1,0 +1,14 @@
+export ZSH="$HOME/.oh-my-zsh"
+export FZF_BASE="/opt/homebrew/opt/fzf"
+
+ZSH_THEME="robbyrussell"
+# zsh plugins
+plugins=(
+        git
+        zsh-autosuggestions
+        vi-mode
+        zsh-syntax-highlighting
+        fzf
+
+)
+source $ZSH/oh-my-zsh.sh
