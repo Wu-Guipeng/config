@@ -61,7 +61,7 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background and no title bar buttons
-  decorations: none
+  #  decorations: none
 
   # Background opacity
   #
@@ -79,7 +79,7 @@ window:
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
   # 全屏
-  startup_mode: SimpleFullscreen
+  # startup_mode: SimpleFullscreen
 
   # Window title
   #title: Alacritty

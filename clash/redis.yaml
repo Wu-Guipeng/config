@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 甲骨文🇰🇷2, server: redis.xyxdbp.xyz, port: 2000, type: vmess, uuid: 072058d7-f3fd-4fd7-9969-634bc576c7d6, alterId: 0, cipher: auto, tls: false}
+  - {name: 甲骨文🇰🇷2, server: redis.xyxdbp.xyz, port: 2000, type: vmess, uuid: 072058d7-f3fd-4fd7-9969-634bc576c7d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

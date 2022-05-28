@@ -1,5 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
-export FZF_BASE="/opt/homebrew/opt/fzf"
+if test uname = "Darwin"; then
+	export FZF_BASE="/opt/homebrew/opt/fzf"
+else
+fi
 
 ZSH_THEME="robbyrussell"
 # zsh plugins
