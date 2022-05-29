@@ -1,9 +1,11 @@
-export ZSH="$HOME/.oh-my-zsh"
-if test uname = "Darwin"; then
+NAME=uname
+if test $($NAME) = "Darwin"; then
 	export FZF_BASE="/opt/homebrew/opt/fzf"
 else
+	echo $NAME
 fi
 
+export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="robbyrussell"
 # zsh plugins
 plugins=(

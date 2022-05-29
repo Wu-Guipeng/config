@@ -1,0 +1,3 @@
+# ranger
+# nvim
+# tmux
