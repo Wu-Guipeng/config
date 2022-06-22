@@ -14,6 +14,7 @@ call plug#begin()
 Plug 'ellisonleao/gruvbox.nvim'
 " If you are using Vim-Plug
 Plug 'shaunsingh/nord.nvim'
+Plug 'rakr/vim-one'
 
 " Use release branch (recommend)
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -21,4 +22,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Or build from source code by using yarn: https://yarnpkg.com
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
 call plug#end()
-colorscheme gruvbox
+
+colorscheme one
+set background=dark " for the dark version

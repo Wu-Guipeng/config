@@ -8,3 +8,32 @@ dc04e12fcb0a93f634902c46f6daf665|file:///Users/wuguipeng/Github.localized/.local
 	CCodeode
 8bcf6629759bd278a5c6266bd9c054f8|file:///Users/wuguipeng/Github.localized/.localized/zh.strings|1|5|v|
 	strings
+6783af60adc74fac9263e0faec9469a0|file:///private/etc/hosts|16|1|V|conf
+	# flink
+36cbd6313d509bc211ca00b8c8d459d9|file:///private/etc/hosts|16|1|V|conf
+	192.168.31.248	node-1
+8602911043a03d11fd717f967de770d1|file:///private/etc/hosts|16|1|V|conf
+	192.168.31.104	node-2
+d6b81a078f6d84ea557bde77738ccc36|file:///Users/wuguipeng/.ssh/config|44|1|v|sshconfig
+	Host m1
+	Hostname 172.16.242.132
+	User ubuntu
+	Port 22
+	
+03d9f519867405a90987ba33d2d94aa5|file:///Users/wuguipeng/.ssh/config|6|1|v|sshconfig
+	Host wuguipeng-e
+	Hostname g215778j42.zicp.vip
+	User wuguipeng
+	Port 31604
+	
+	
+e254ab88d735d28a553e184a719ed6bb|file:///Users/wuguipeng/Downloads/frp_0.43.0_darwin_arm64/frpc.ini|7|1|v|dosini
+	[zgc]
+	type = tcp
+	local_ip = 127.0.0.1
+	local_port = 9887
+	remote_port = 9887
+c6baf234a7b845634d8458b4f8be50de|file:///Users/wuguipeng/.config/nvim/init.vim|26|25|V|vim
+	let g:airline_theme='one'
+ac5786cf5d9ccd873ee34cfbf1e30e84|file:///Users/wuguipeng/.config/nvim/init.vim|24|15|V|vim
+	" colorscheme gruvbox
