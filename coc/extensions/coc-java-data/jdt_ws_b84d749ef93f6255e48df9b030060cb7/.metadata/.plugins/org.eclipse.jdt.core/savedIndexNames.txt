@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+/Users/wuguipeng/.config/coc/extensions/coc-java-data/jdt_ws_b84d749ef93f6255e48df9b030060cb7/.metadata/.plugins/org.eclipse.jdt.core
-3785392067.index
-3842426239.index
